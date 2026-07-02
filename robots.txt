@@ -1,0 +1,5 @@
+# robots.txt — M Saman Portfolio
+User-agent: *
+Allow: /
+
+Sitemap: https://msamandev.com/sitemap.xml
