@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- HOME -->
+  <url>
+    <loc>https://msamandev.com/</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://msamandev.com/images/profile.jpg</image:loc>
+      <image:title>M Saman - Professional Tech Portfolio</image:title>
+    </image:image>
+  </url>
+
+  <!-- ABOUT -->
+  <url>
+    <loc>https://msamandev.com/about.html</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- PORTFOLIO -->
+  <url>
+    <loc>https://msamandev.com/portfolio.html</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://msamandev.com/images/project-webdesign.jpg</image:loc>
+      <image:title>Web Design Project</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://msamandev.com/images/project-vibecoding.jpg</image:loc>
+      <image:title>Serverless Web App Project</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://msamandev.com/images/project-seo.jpg</image:loc>
+      <image:title>SEO Ranking Campaign</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://msamandev.com/images/project-social.jpg</image:loc>
+      <image:title>Social Media Management</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://msamandev.com/images/project-va.jpg</image:loc>
+      <image:title>Virtual Assistant Service</image:title>
+    </image:image>
+  </url>
+
+  <!-- CONTACT -->
+  <url>
+    <loc>https://msamandev.com/contact.html</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+</urlset>
