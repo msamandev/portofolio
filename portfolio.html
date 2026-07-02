@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>M Saman — Portfolio</title>
+  <meta name="description" content="Portfolio project M Saman: Web Design, Vibe Coding, SEO, Social Media, Virtual Assistant." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header id="header">
+    <div class="container">
+      <nav>
+        <div class="logo">M<span>Saman</span></div>
+        <div class="nav-right">
+          <div class="nav-links" id="navLinks">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="portfolio.html" class="active">Portfolio</a>
+            <a href="contact.html">Contact</a>
+          </div>
+          <button class="theme-btn" id="themeBtn" aria-label="Toggle theme">☀️</button>
+          <div class="hamburger" id="hamburger"><span></span><span></span><span></span></div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <div class="page-head">
+    <h1>Portfolio <span class="accent">Project</span></h1>
+    <p>Beberapa karya & project pilihan</p>
+    <p class="crumb"><a href="index.html">Home</a> / Portfolio</p>
+  </div>
+
+  <section style="padding-top:20px;">
+    <div class="container">
+      <div class="portfolio-grid">
+        <div class="project reveal"><img src="images/project-webdesign.jpg" alt="Project Web Design" loading="lazy" /><div class="info"><span>Web Design</span><h3>Responsive Landing Page</h3><p>Landing page modern & konversi tinggi.</p></div></div>
+        <div class="project reveal"><img src="images/project-vibecoding.jpg" alt="Project Vibe Coding" loading="lazy" /><div class="info"><span>Vibe Coding</span><h3>Serverless Web App</h3><p>Aplikasi cepat berbasis serverless.</p></div></div>
+        <div class="project reveal"><img src="images/project-seo.jpg" alt="Project SEO" loading="lazy" /><div class="info"><span>SEO</span><h3>SEO Ranking Campaign</h3><p>Peningkatan ranking & traffic organik.</p></div></div>
+        <div class="project reveal"><img src="images/project-social.jpg" alt="Project Social Media" loading="lazy" /><div class="info"><span>Social Media</span><h3>Content Management</h3><p>Pengelolaan konten & engagement brand.</p></div></div>
+        <div class="project reveal"><img src="images/project-va.jpg" alt="Project Virtual Assistant" loading="lazy" /><div class="info"><span>Virtual Assistant</span><h3>Business Support System</h3><p>Dukungan operasional bisnis harian.</p></div></div>
+      </div>
+      <div style="text-align:center;margin-top:45px;" class="reveal">
+        <a href="contact.html" class="btn btn-primary">Diskusikan Project Anda</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="logo" style="margin-bottom:18px;">M<span class="accent">Saman</span></div>
+      <div class="socials">
+        <a href="https://instagram.com/msamandev" target="_blank">📷 Instagram @msamandev</a>
+        <a href="https://www.threads.net/@msamandev" target="_blank">🧵 Threads msamandev</a>
+        <a href="https://wa.me/62xxxxxxxxxx" target="_blank">💬 WhatsApp @muhsaman</a>
+      </div>
+      <p class="copy">© <span id="year"></span> M Saman — Built with ⚡ Serverless & Vibe Coding.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
