@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>M Saman — Contact</title>
+  <meta name="description" content="Hubungi M Saman untuk project web design, SEO, social media & virtual assistant." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header id="header">
+    <div class="container">
+      <nav>
+        <div class="logo">M<span>Saman</span></div>
+        <div class="nav-right">
+          <div class="nav-links" id="navLinks">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contact.html" class="active">Contact</a>
+          </div>
+          <button class="theme-btn" id="themeBtn" aria-label="Toggle theme">☀️</button>
+          <div class="hamburger" id="hamburger"><span></span><span></span><span></span></div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <div class="page-head">
+    <h1>Mari <span class="accent">Berkolaborasi</span></h1>
+    <p>Punya project? Hubungi saya langsung.</p>
+    <p class="crumb"><a href="index.html">Home</a> / Contact</p>
+  </div>
+
+  <section style="padding-top:20px;">
+    <div class="container">
+      <div class="contact-wrap">
+        <!-- INFO -->
+        <div class="reveal">
+          <div class="info-item"><div class="ic">💬</div><div><h4>WhatsApp</h4><p>@muhsaman</p></div></div>
+          <div class="info-item"><div class="ic">📷</div><div><h4>Instagram</h4><p>@msamandev</p></div></div>
+          <div class="info-item"><div class="ic">🧵</div><div><h4>Threads</h4><p>msamandev</p></div></div>
+          <a href="https://wa.me/6285669570492" target="_blank" class="btn btn-primary" style="margin-top:10px;">Chat Langsung via WhatsApp</a>
+        </div>
+
+        <!-- FORM -->
+        <div class="contact-box reveal">
+          <form id="contactForm">
+            <div class="form-group">
+              <label for="name">Nama</label>
+              <input type="text" id="name" name="name" placeholder="Nama Anda" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="email@contoh.com" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Pesan</label>
+              <textarea id="message" name="message" rows="4" placeholder="Ceritakan project Anda..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" style="width:100%;">Kirim via WhatsApp</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="logo" style="margin-bottom:18px;">M<span class="accent">Saman</span></div>
+      <div class="socials">
+        <a href="https://instagram.com/msamandev" target="_blank">📷 Instagram @msamandev</a>
+        <a href="https://www.threads.net/@msamandev" target="_blank">🧵 Threads msamandev</a>
+        <a href="https://wa.me/6285669570492" target="_blank">💬 WhatsApp @muhsaman</a>
+      </div>
+      <p class="copy">© <span id="year"></span> M Saman — Built with ⚡ Serverless & Vibe Coding.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
