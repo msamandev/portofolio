@@ -66,7 +66,9 @@ document.addEventListener('DOMContentLoaded', () => {
   // Auto year
   const y = document.getElementById('year');
   if(y) y.textContent = new Date().getFullYear();
-
+  //
+  const roles = ["Web Designer","Vibe Coder","SEO Specialist","Social Media Manager","Virtual Assistant","AI Automation Specialist"];
+  
   // Image fade-in
   document.querySelectorAll('img').forEach(img=>{
     img.style.transition='opacity .6s';
@@ -81,7 +83,7 @@ document.addEventListener('DOMContentLoaded', () => {
       e.preventDefault();
       const name = form.name.value.trim();
       const msg = form.message.value.trim();
-      const wa = `https://wa.me/62xxxxxxxxxx?text=${encodeURIComponent('Halo M Saman, saya '+name+'. '+msg)}`;
+      const wa = `https://wa.me/6285669570492?text=${encodeURIComponent('Halo M Saman, saya '+name+'. '+msg)}`;
       window.open(wa,'_blank');
     });
   }
